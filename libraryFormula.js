@@ -1,22 +1,22 @@
-function AreaOfSquare(squareSide) {
+function areaOfSquare(squareSide) {
 
     return (squareSide * squareSide)
 
 }
 
-function AreaOfRectangle(rectangleSide) {
+function areaOfRectangle(rectangleSide) {
 
     return (rectangleSide.side1 * rectangleSide.side2)
 
 }
 
-function AreaOfParallelogram(ParallelogramMeasurements) {
+function areaOfParallelogram(parallelogramMeasurements) {
 
-    return (ParallelogramMeasurements.side * ParallelogramMeasurements.height)
+    return (parallelogramMeasurements.side * parallelogramMeasurements.height)
 
 }
 
-function AreaOfRomb(rombMeasurements) {
+function areaOfRomb(rombMeasurements) {
 
     return (rombMeasurements.side * rombMeasurements.height)
 }

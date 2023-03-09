@@ -2,7 +2,7 @@ function showResultInDomKvadrat() {
     const squareSide = document.getElementById('dlinaStoroniKvadrata').value;
 
 
-    document.getElementById('ploschadKvadrata').innerHTML = AreaOfSquare(squareSide);
+    document.getElementById('ploschadKvadrata').innerHTML = areaOfSquare(squareSide);
 }
 
 function showResultInDomPriamougolnika() {
@@ -11,17 +11,17 @@ function showResultInDomPriamougolnika() {
         side2: document.getElementById('drugayaStoronaPriamougolnika').value
     }
 
-    document.getElementById('ploschadPriamougolnika').innerHTML = AreaOfRectangle(rectangleSide)
+    document.getElementById('ploschadPriamougolnika').innerHTML = areaOfRectangle(rectangleSide)
 
 }
 
 function showResultInDomParalelograma() {
-    const ParallelogramMeasurements = {
+    const parallelogramMeasurements = {
         side: document.getElementById('dlinaStoronyParalelograma').value,
         height: document.getElementById('dlinaVisotyParalelograma').value
     }
 
-    document.getElementById('ploschadParalelograma').innerHTML = AreaOfParallelogram(ParallelogramMeasurements)
+    document.getElementById('ploschadParalelograma').innerHTML = areaOfParallelogram(parallelogramMeasurements)
 }
 
 function showResultInDomRomba() {
@@ -30,5 +30,5 @@ function showResultInDomRomba() {
         height: document.getElementById('dlinaVisotyRomba').value
     }
 
-    document.getElementById('ploschadRomba').innerHTML = AreaOfRomb(rombMeasurements)
+    document.getElementById('ploschadRomba').innerHTML = areaOfRomb(rombMeasurements)
 }
